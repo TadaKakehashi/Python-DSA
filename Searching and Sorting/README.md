@@ -25,3 +25,16 @@ Array allow for eficient access and manipulationn of data.*
 | `'d'`     | double             | float             | 8                     |
 
 ------
+
+
+Arrays: 
+1. Are Homogenous (same type)
+2. Fixed Size
+3. More memory Efficient for larger data
+4. Use array or numpy (in python)
+
+Lists:
+1. Heterogenous in nature (Different type)
+2. They are of Dynamic Size (Can grow and Shrink)
+3. Slower for larger dataset
+4. They are built in datatypes in Python
