@@ -7,6 +7,12 @@ Array allow for eficient access and manipulationn of data.*
 
 *In Python we use list instead of array as they provide more flexibility. However, python provide ability to use array via libraries such as numpy and array*
 
+```python
+  import array #to define arrays we use import to use array otherwise we use lists
+  arr = array.array('i',[1,2,3,4,5]) #i = data types 
+  print(arr)
+```
+
 ------
 | Type code | C Type             | Python Type       | Minimum size in bytes |
 | --------- | ------------------ | ----------------- | --------------------- |
@@ -38,3 +44,8 @@ Lists:
 2. They are of Dynamic Size (Can grow and Shrink)
 3. Slower for larger dataset
 4. They are built in datatypes in Python
+
+-------
+
+# Linear Search
+
