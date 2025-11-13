@@ -48,4 +48,42 @@ Lists:
 -------
 
 # Linear Search
+*Linear Search is the simplest searching algorithm.
+In Linear Search we visit every single element and see if it matches with the target or not, and move till the end of the array.*
 
+```python
+    def linearsearch(arr,target):
+    size = len(arr)
+    for index in range(size):
+        if arr[index] == target:
+            return index
+
+    return -1
+
+arr = [10,20,30,40,50]
+target = 40
+result = linearsearch(arr,target)
+print(result)
+```
+Algorithm Steps
+
+- Start from the first element of the list.
+
+- Compare the current element with the target element.
+
+- If they match → return the index (or indicate “found”).
+
+- If not → move to the next element.
+
+- If the end of the list is reached → return “not found”.
+
+
+### Case	Time Complexity	Explanation
+
+- Best Case:	O(1)	Target found at first position
+
+- Worst Case:	O(n)	Target not present or at last position
+
+- Average Case:	O(n/2) ≈ O(n)	Target somewhere in the middle
+
+- Space Complexity:	O(1)	No extra space used
